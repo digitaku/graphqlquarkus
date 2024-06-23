@@ -1,4 +1,4 @@
-package com.atilas;
+package com.atilas.rest;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
