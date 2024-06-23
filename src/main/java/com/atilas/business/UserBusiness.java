@@ -34,4 +34,9 @@ public class UserBusiness {
         userRepository.persist(newUser);
         return UserMapper.INSTANCE.userToUserResponseDTO(newUser);
     }
+
+    public UserResponseDTO findUserId(Long id) {
+        User user = userRepository.findById(id);
+        return UserMapper.INSTANCE.userToUserResponseDTO(user);
+    }
 }

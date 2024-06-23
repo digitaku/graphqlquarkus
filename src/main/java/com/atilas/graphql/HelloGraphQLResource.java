@@ -1,4 +1,4 @@
-package com.atilas;
+package com.atilas.graphql;
 
 import org.eclipse.microprofile.graphql.DefaultValue;
 import org.eclipse.microprofile.graphql.Description;
